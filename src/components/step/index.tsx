@@ -1,4 +1,3 @@
-import React from "react";
 import { View, Text } from "react-native";
 import { s } from "./styles";
 import { IconProps } from "@tabler/icons-react-native";
