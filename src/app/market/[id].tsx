@@ -7,7 +7,7 @@ import { api } from "@/services/api";
 import { CameraView, useCameraPermissions } from "expo-camera";
 import { Redirect, router, useLocalSearchParams } from "expo-router";
 import { useEffect, useRef, useState } from "react";
-import { View, Alert, Modal, StatusBar } from "react-native";
+import { Alert, Modal, StatusBar, View } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 
 type MarketProps = DetailProps & {
@@ -74,7 +74,7 @@ export default function Market() {
           text: "Não",
         },
         { text: "Sim", onPress: () => getCoupon(id) },
-      ]
+      ],
     );
   };
 

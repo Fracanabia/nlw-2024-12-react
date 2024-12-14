@@ -1,8 +1,8 @@
-import { View, Text } from "react-native";
-import React from "react";
-import { s } from "./styles";
-import { IconTicket } from "@tabler/icons-react-native";
 import { colors } from "@/styles/colors";
+import { IconTicket } from "@tabler/icons-react-native";
+import React from "react";
+import { Text, View } from "react-native";
+import { s } from "./styles";
 
 type Props = {
   code: string;

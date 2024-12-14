@@ -2,12 +2,12 @@ import { Categories, CategoriesProps } from "@/components/categories";
 import { PlaceProps } from "@/components/place";
 import { Places } from "@/components/places";
 import { api } from "@/services/api";
+import { colors, fontFamily } from "@/styles/theme";
+import * as Location from "expo-location";
+import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import { Alert, Text, View } from "react-native";
 import MapView, { Callout, Marker } from "react-native-maps";
-import * as Location from "expo-location";
-import { colors, fontFamily } from "@/styles/theme";
-import { router } from "expo-router";
 
 type MarketProps = PlaceProps & {
   latitude: number;

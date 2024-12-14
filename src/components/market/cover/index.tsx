@@ -1,9 +1,9 @@
-import { View, Text, ImageBackground } from "react-native";
-import React from "react";
-import { s } from "./styles";
 import { Button } from "@/components/button";
 import { IconArrowLeft } from "@tabler/icons-react-native";
 import { router } from "expo-router";
+import React from "react";
+import { ImageBackground, View } from "react-native";
+import { s } from "./styles";
 
 type Props = {
   uri: string;

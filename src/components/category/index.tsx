@@ -1,8 +1,8 @@
+import { colors } from "@/styles/theme";
+import { categoriesIcons } from "@/utils/categories-icons";
 import React from "react";
 import { Pressable, PressableProps, Text } from "react-native";
 import { s } from "./styles";
-import { categoriesIcons } from "@/utils/categories-icons";
-import { colors } from "@/styles/theme";
 
 type Props = PressableProps & {
   iconId: string;

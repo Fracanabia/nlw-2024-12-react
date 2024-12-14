@@ -1,3 +1,5 @@
+import { colors } from "@/styles/theme";
+import { IconProps as TablerIconProps } from "@tabler/icons-react-native";
 import {
   ActivityIndicator,
   Text,
@@ -6,8 +8,6 @@ import {
   TouchableOpacityProps,
 } from "react-native";
 import { s } from "./styles";
-import { colors } from "@/styles/theme";
-import { IconProps as TablerIconProps } from "@tabler/icons-react-native";
 type Props = TouchableOpacityProps & {
   isLoading?: boolean;
 };
