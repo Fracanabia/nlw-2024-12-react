@@ -4,7 +4,7 @@
   "license": "0BSD",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -37,7 +37,8 @@
     "react-native-svg": "15.8.0",
     "react-native-web": "~0.19.13",
     "react-native-gesture-handler": "~2.20.2",
-    "react-native-maps": "1.18.0"
+    "react-native-maps": "1.18.0",
+    "expo-location": "~18.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
